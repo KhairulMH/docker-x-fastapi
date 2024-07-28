@@ -4,7 +4,7 @@ import joblib
 import numpy as np
 
 # Load the model
-model = joblib.load('car_insurance_fraud_model.joblib')
+model = joblib.load('app/car_insurance_fraud_model.joblib')
 
 app = FastAPI()
 
