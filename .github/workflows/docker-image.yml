@@ -30,4 +30,4 @@ jobs:
 
     - name: Run Docker container
       run: |
-        docker run -d -p 80:80 ${{ secrets.khairulmh }}/docker-x-fasapi:latest
+        docker run -d -p 80:80 ${{ secrets.DOCKER_USERNAME }}/docker-x-fasapi:latest
