@@ -1,7 +1,7 @@
-# Docker-X-Fastapi 
+# ML Prediction, Docker-X-Fastapi 
 #### (incomplete)
 
-This repository contains a FastAPI application for predicting car insurance fraud, packaged in a Docker container.
+This repository contains a FastAPI application for predicting car insurance fraud, packaged in a Docker container. A continuation from previous project, Vehicle Insurance Fraud Claim Prediction (Beta).
 
 ## Automated Deployment with GitHub Actions
 
