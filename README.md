@@ -24,11 +24,11 @@ To set up the necessary secrets for the GitHub Actions workflow:
 
 ## Accessing the API
 
-After the Docker container is deployed, the FastAPI application will be accessible at `http://localhost:80`. You can use any API client (such as [Postman](https://www.postman.com/) or `curl`) to interact with the API.
+After the Docker container is deployed, the FastAPI application will be accessible at `http://127.0.0.1:8000/docs`. You can use any API client (such as [Postman](https://www.postman.com/) or `curl`) to interact with the API.
 
 ### Example Request
 
-- **Endpoint**: `POST http://localhost:80/vehicle_insurance_fraud(Beta)/predict`
+- **Endpoint**: `POST http://127.0.0.1:8000/vehicle_insurance_fraud(Beta)/predict`
 - **Request Body**:
   ```json
   {
